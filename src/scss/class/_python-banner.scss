@@ -1,0 +1,58 @@
+.python-banner {
+    height: 90vh;
+    background-image: url('../images/python-banner.png');
+    background-position: top center;
+    background-size: cover;
+
+    h4 {
+        font-size: 1.4rem;
+    }
+
+    h3 {
+        font-weight: bold;
+        font-size: 3.5rem;
+    }
+}
+
+.py-leading {
+    .lessons {
+          width: 380px;
+          height: 400px;
+          overflow: scroll;
+    }
+    ul {
+        li {
+
+            background-color: #191d21 !important;
+        }
+    }
+}
+
+@media (max-width : 576px) {
+    .python-banner {
+        h3 {
+            font-size: 1.8rem;
+        }
+    }
+
+    .prerequisites {
+        .prerequest {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    .py-leading {
+        .lessons {
+            width: 280px;
+            height: 200px;
+            overflow: scroll;
+        }
+
+        iframe {
+            width: 340px;
+            height: 186px;
+        }
+    }
+}

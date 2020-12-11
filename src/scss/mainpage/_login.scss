@@ -1,0 +1,31 @@
+.login {
+    .card {
+        width: 450px;
+        box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.20);
+        border-radius: 0;
+    }
+
+    label {
+        color: #6e6e6e;
+    }
+
+    .form-control:focus {
+        border-color: #c5c5c5;
+        box-shadow: 0 0 0 0;
+    }
+
+    a {
+        text-decoration: none;
+        color:  $primary;
+        
+        &:hover {
+            color: $secondary;
+        }
+    }
+
+    @media (max-width : 576px) {
+        .card {
+            width: 330px;
+        }
+    }
+}

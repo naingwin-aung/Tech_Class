@@ -1,0 +1,18 @@
+.guaranteed {
+    img {
+        height: 110px;
+        width: 110px;
+    }
+
+    @media (max-width : 576px) {
+        h3 {
+            font-size: 1.5rem;
+        }
+        p {
+            font-size: 0.8rem;
+        }
+        img {
+            display: none;
+        }
+    }
+}

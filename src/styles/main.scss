@@ -1,0 +1,35 @@
+$secondary : #FFC92A;
+$info : #272d34;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Lato&family=Open+Sans&display=swap');
+@import '../scss/mainpage/navigation';
+@import '../scss/mainpage/banner';
+@import '../scss/mainpage/course-available';
+@import '../scss/mainpage/latest-vd';
+@import '../scss/mainpage/guaranteed';
+@import '../scss/mainpage/current';
+@import '../scss/mainpage/how-access';
+@import '../scss/mainpage/get_access';
+@import '../scss/mainpage/contact-us';
+@import '../scss/mainpage/footer';
+@import '../scss/mainpage/login';
+@import '../scss/mainpage/asked-question';
+@import '../scss/class/dark-navigation';
+@import '../scss/class/python-banner';
+@import '../scss/class/getfree';
+@import '../scss/class/data-analytics';
+@import '../scss/class/web-design';
+@import '../scss/class/checkout';
+
+html {
+    scroll-behavior: smooth;  
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: 'Lato', sans-serif;
+}

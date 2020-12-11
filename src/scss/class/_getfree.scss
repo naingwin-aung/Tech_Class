@@ -1,0 +1,21 @@
+.getfree {
+    background-color: #191D21;
+
+    input {
+        border-radius: 0;
+        border: 1px solid #303438;
+        background-color: #303438;
+        padding-top: 29px;
+        padding-bottom: 29px;
+        font-size: 20px;
+
+        &:focus {
+            background-color:  #303438;
+            box-shadow: none;
+            border-color: #66afe9;
+        }
+    }
+    .join-btn {
+        background-color: #34495e;
+    }
+}

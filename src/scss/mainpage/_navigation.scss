@@ -1,0 +1,32 @@
+.navigation{
+    padding: 20px 50px;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.20);
+    
+    .logo {
+        font-family: 'Alatsi', sans-serif;
+        font-size: 32px;
+
+        span {
+            box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.20);
+        }
+    }
+    ul {
+        li {
+            margin-left: 20px;
+              
+            a {
+                font-family: 'Open Sans', sans-serif;
+                color: rgb(26, 26, 26);
+                transition: all 0.5s;
+
+                &:hover {
+                    margin-bottom: 3px;
+                    border-bottom: 2px solid $primary;
+                }
+            }
+        }
+    }
+    button {
+        outline: none;
+    }
+}

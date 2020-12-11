@@ -1,0 +1,21 @@
+.data-banner {
+    height: 90vh;
+    background-image: url('../images/sql-banner.png');
+    background-position: top center;
+    background-size: cover;
+
+    h4 {
+        font-size: 1.4rem;
+    }
+
+    h3 {
+        font-weight: bold;
+        font-size: 3.5rem;
+    }
+
+    @media (max-width : 576px) {
+        h3 {
+            font-size: 1.8rem;
+        }
+    }
+}
