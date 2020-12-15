@@ -10119,6 +10119,9 @@ h3 {
   }
 }
 
+.how-access {
+  background-color: #ECF0F1;
+}
 @media (max-width: 576px) {
   .how-access h2 {
     font-size: 1.7rem;
@@ -10126,6 +10129,17 @@ h3 {
   .how-access iframe {
     width: 300px;
     height: 270px;
+  }
+}
+
+.instructor img {
+  height: 250px;
+  width: 250px;
+}
+@media (max-width: 576px) {
+  .instructor img {
+    height: 200px;
+    width: 200px;
   }
 }
 
@@ -10387,6 +10401,14 @@ footer .terms, footer .privacy {
 .checkout .card input {
   border-radius: 4px;
   box-shadow: none;
+}
+
+.detailinstructor {
+  line-height: 2rem;
+}
+.detailinstructor img {
+  width: 200px;
+  height: 200px;
 }
 
 html {
