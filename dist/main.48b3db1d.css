@@ -10422,4 +10422,11 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+.detail_footer, .content_footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
 /*# sourceMappingURL=/main.48b3db1d.css.map */

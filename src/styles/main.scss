@@ -34,3 +34,10 @@ body {
     box-sizing: 0;
     font-family: 'Lato', sans-serif;
 }
+
+.detail_footer, .content_footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}

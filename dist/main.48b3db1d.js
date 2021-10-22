@@ -122,7 +122,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\images\\banner.png":[["banner.d99271e5.png","images/banner.png"],"images/banner.png"],"./..\\images\\slider1.png":[["slider1.5557daeb.png","images/slider1.png"],"images/slider1.png"],"./..\\images\\slider2.png":[["slider2.9685b2ea.png","images/slider2.png"],"images/slider2.png"],"./..\\images\\latest.png":[["latest.f2465910.png","images/latest.png"],"images/latest.png"],"./..\\images\\python-banner.png":[["python-banner.f42bc920.png","images/python-banner.png"],"images/python-banner.png"],"./..\\images\\sql-banner.png":[["sql-banner.fe1bfc55.png","images/sql-banner.png"],"images/sql-banner.png"],"./..\\images\\web-banner.png":[["web-banner.0bc4083a.png","images/web-banner.png"],"images/web-banner.png"],"./..\\images\\tech3.png":[["tech3.53ac858e.png","images/tech3.png"],"images/tech3.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./../images/banner.png":[["banner.d99271e5.png","images/banner.png"],"images/banner.png"],"./../images/slider1.png":[["slider1.5557daeb.png","images/slider1.png"],"images/slider1.png"],"./../images/slider2.png":[["slider2.9685b2ea.png","images/slider2.png"],"images/slider2.png"],"./../images/latest.png":[["latest.f2465910.png","images/latest.png"],"images/latest.png"],"./../images/python-banner.png":[["python-banner.f42bc920.png","images/python-banner.png"],"images/python-banner.png"],"./../images/sql-banner.png":[["sql-banner.fe1bfc55.png","images/sql-banner.png"],"images/sql-banner.png"],"./../images/web-banner.png":[["web-banner.0bc4083a.png","images/web-banner.png"],"images/web-banner.png"],"./../images/tech3.png":[["tech3.53ac858e.png","images/tech3.png"],"images/tech3.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -150,7 +150,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54222" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "46493" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
